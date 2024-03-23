@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">android_mvp_kotlin</string>
+
+    <string name="title_home">首页</string>
+    <string name="title_tree">体系</string>
+    <string name="title_navi">导航</string>
+    <string name="title_project">项目</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_search">搜索</string>
+    <string name="action_settings">设置</string>
+
+    <string name="title_activity_about">关于</string>
+
+    <string name="large_text">
+        "用到的库：\n\n"
+        "YUtils\n\n"
+        "retrofit\n\n"
+        "rxjava2\n\n"
+        "BRVAH\n\n"
+        "banner\n\n"
+        "glide\n\n"
+        "agentweb\n\n"
+        "VerticalTabLayout\n\n"
+        "flowlayout\n\n"
+    </string>
+    <string name="hint_username">请输入账号</string>
+    <string name="hint_password">请输入密码</string>
+    <string name="password">密码</string>
+    <string name="username">账号</string>
+    <string name="register">注册账号</string>
+    <string name="login">登 录</string>
+
+</resources>

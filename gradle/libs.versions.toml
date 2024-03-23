@@ -1,0 +1,51 @@
+[versions]
+adapterRxjava2 = "2.10.0"
+agentweb = "v5.1.1-androidx"
+agp = "8.3.0"
+banner = "2.2.3"
+baserecyclerviewadapterhelper = "3.0.6"
+flowlayoutLib = "1.1.2"
+glide = "4.11.0"
+kotlin = "1.9.0"
+coreKtx = "1.12.0"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+loggingInterceptor = "4.12.0"
+material = "1.11.0"
+activity = "1.8.2"
+constraintlayout = "2.1.4"
+retrofit = "2.10.0"
+rxandroid = "2.1.1"
+verticaltablayout = "1.2.7"
+yutils = "3.2.2"
+
+[libraries]
+adapter-rxjava2 = { module = "com.squareup.retrofit2:adapter-rxjava2", version.ref = "adapterRxjava2" }
+agentweb = { module = "io.github.justson:agentweb-core", version.ref = "agentweb" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+banner = { module = "io.github.youth5201314:banner", version.ref = "banner" }
+baseRecyclerViewAdapterHelper = { module = "com.github.CymChad:BaseRecyclerViewAdapterHelper", version.ref = "baserecyclerviewadapterhelper" }
+compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "glide" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofit" }
+flowlayout-lib = { module = "com.hyman:flowlayout-lib", version.ref = "flowlayoutLib" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "loggingInterceptor" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+rxandroid = { module = "io.reactivex.rxjava2:rxandroid", version.ref = "rxandroid" }
+verticalTabLayout = { module = "q.rorbin:VerticalTabLayout", version.ref = "verticaltablayout" }
+yechaoaYUtils = { module = "com.github.yechaoa:YUtils", version.ref = "yutils" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
+
